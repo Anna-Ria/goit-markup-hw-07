@@ -4,7 +4,7 @@
 /* акцент  #2196F3; */
 /* основной цвет текста серый #757575; */
 /* вторичный текст #212121; */
-:root {
+/* :root { 
     --fon-gr:#AFB1B8;
     --primary-text-color:#757575;
     --accent-color:#2196F3;
@@ -58,7 +58,8 @@ font-family: Roboto,sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em; }
+letter-spacing: 0.03em; 
+}*/
 
 
 
