@@ -1,0 +1,17 @@
+.feature {
+    padding-top: 94px;
+}
+.feature-list {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-list .items {
+   
+   
+    flex-basis: calc((100% - 90px) / 4);
+}
+.feature-list .item:not(:last-child) {
+margin-right: 30px;
+}
