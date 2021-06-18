@@ -8,13 +8,7 @@
 // components
 @import "./components/button";
 
-@import "./components/contacts";
-
 @import "./components/logo";
-
-@import "./components/navigation";
-
-@import "./components/header.icons";
 
 @import "./components/suptitle";
 
@@ -36,6 +30,10 @@
 
 @import "./components/backdrop";
 
+@import "./components/modal-window";
+
+@import "./components/modal-style";
+
 // layout
 @import "./layout/header";
 
@@ -53,4 +51,4 @@
 
 @import "./layout/portfolio";
 
-@import "./layout/modal"
+
