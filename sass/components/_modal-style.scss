@@ -9,19 +9,23 @@
     border-radius: 4px;
     resize: none;
     padding: 12px 16px;
-    
+    &::placeholder {
+        color: rgba(117, 117, 117, 0.5);
+        // &:focus {
+            border-color: var(--accent-color);
+            outline: none;
+            
+        // } 
+    } 
 }
-
-.modal-comment::placeholder {
-    color: rgba(117, 117, 117, 0.5);
-    
-}
-
 .modal-comment:focus {
     border-color: var(--accent-color);
     outline: none;
     
-}
+} 
+
+
+
 
 .check-label {
     display: flex;
@@ -43,27 +47,26 @@
     height: 15px;
     border: 2px solid var(--primary-text-color);
     margin-right: 7px;
-    }
-    
-    .check-input:checked + .check-box {
+    .check-input:checked + & {
         background-image: url(../image/Vector.svg);
         background-color: var(--accent-color);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         border-color: var(--accent-color);
         border-radius: 2px;
+        .check-input:focus + & {
+            border-color: var(--accent-color);
+            .check-input:checked:focus + & {
+                border-color: var(--accent-color);
+            }
+        }   
+    }
     }
     
-    .check-input:focus + .check-box {
-        border-color: var(--accent-color);
-    } 
     
-    .check-input:checked:focus + .check-box {
-        border-color: var(--accent-color);
-    }
     
     .checkbox-link {
         color: var(--accent-color);
-    }
+   }
     
     

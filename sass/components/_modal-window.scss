@@ -25,11 +25,12 @@ padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.modal-close:focus {
-    color: var(--accent-color);
-}
+
 
 
 

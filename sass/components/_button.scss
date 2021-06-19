@@ -1,4 +1,4 @@
-.hero-button {
+.main-button {
     display: inline-block;
     min-width: 200px;
     padding: 10px 32px;
@@ -18,12 +18,13 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
-    }
-    .hero .hero-button:hover,
-    .hero .hero-button:focus {
+    &:hover,
+    &:focus {
         color: var(--white);
         background-color: var(--secodary-accent)
+     }
     }
+    
 
 
     // footer-button 
@@ -48,14 +49,14 @@
             cursor: pointer;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-             
-            }
-            .footer-submit:hover,
-            .footer-submit:focus {
+            &:hover,
+            &:focus {
                 color: var(--white);
                 background-color: var(--secodary-accent)
             
+             }
             }
+            
 
 
             // modal-button 
@@ -77,12 +78,12 @@
                 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
             cursor: pointer;
-            
-            }
-            
-            .modal-form-btn:hover,
-            .modal-form-btn:focus {
+            &:hover,
+            &:focus {
                     
                     background-color: var(--secodary-accent);
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                 }
+            }
+            
+            
