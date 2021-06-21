@@ -9,13 +9,14 @@
     border-radius: 4px;
     resize: none;
     padding: 12px 16px;
+    &:focus {
+        border-color: var(--accent-color);
+        outline: none;
+        
+    } 
     &::placeholder {
         color: rgba(117, 117, 117, 0.5);
-        // &:focus {
-            border-color: var(--accent-color);
-            outline: none;
-            
-        // } 
+        
     } 
 }
 .modal-comment:focus {

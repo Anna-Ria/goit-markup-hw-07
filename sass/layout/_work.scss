@@ -1,16 +1,17 @@
 .section-work {
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 .work-photo  {
     display: flex;
 justify-content: center;
-
-}
- .work-photo .photo:not(:last-child) {
+& .photo:not(:last-child) {
     margin-right: 30px;
    
 }
+}
+
 
 .overlay-work {
 
