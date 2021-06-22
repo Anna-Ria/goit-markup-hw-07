@@ -1,4 +1,4 @@
-.modal-comment {
+.form__comment {
     width: 100%;
     height: 120px;
     
@@ -19,7 +19,7 @@
         
     } 
 }
-.modal-comment:focus {
+.form__comment:focus {
     border-color: var(--accent-color);
     outline: none;
     
@@ -28,13 +28,13 @@
 
 
 
-.check-label {
+.check {
     display: flex;
     align-items: center;
     cursor: pointer;
     }
     
-    .check-input {
+    .check__input {
         position: absolute;
         width: 16px;
         height: 15px; 
@@ -42,22 +42,22 @@
     clip: rect(0 0 0 0);
     }
     
-    .check-box {
+    .check__box {
         
         width: 16px;
     height: 15px;
     border: 2px solid var(--primary-text-color);
     margin-right: 7px;
-    .check-input:checked + & {
+    .check__input:checked + & {
         background-image: url(../image/Vector.svg);
         background-color: var(--accent-color);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         border-color: var(--accent-color);
         border-radius: 2px;
-        .check-input:focus + & {
+        .check__input:focus + & {
             border-color: var(--accent-color);
-            .check-input:checked:focus + & {
+            .check__input:checked:focus + & {
                 border-color: var(--accent-color);
             }
         }   

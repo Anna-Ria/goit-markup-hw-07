@@ -40,7 +40,7 @@ padding: 40px;
     height: 18px;
     fill: currentColor;
  }
- .modal-head {
+ .form__head {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 20px;
@@ -49,7 +49,7 @@ padding: 40px;
     margin-bottom: 12px;
 }
 
-.modal-form {
+.form {
 
    display: flex; 
    flex-direction: column;
