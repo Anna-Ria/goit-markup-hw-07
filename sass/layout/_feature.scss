@@ -2,16 +2,16 @@
     padding-top: 94px;
     
 }
-.feature-list {
+.feature__list {
     
     display: flex;
     justify-content: space-between;
-    & .items {
+    & .feature__items {
    
    
         flex-basis: calc((100% - 90px) / 4);
     
-    & .item:not(:last-child) {
+    & .feature__items:not(:last-child) {
         margin-right: 30px;
         
         }
